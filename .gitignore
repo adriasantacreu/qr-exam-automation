@@ -15,7 +15,8 @@ exam_workflow_scripts/zipped_exams/
 exam_workflow_scripts/qr_debug_failures/
 
 # Student data
-exam_workflow_scripts/student_data/
+# (Keep example data, ignore everything else)
+# exam_workflow_scripts/student_data/
 
 # Temporary or local files
 *.zip
