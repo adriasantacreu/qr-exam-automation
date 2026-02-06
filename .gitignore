@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.venv
+
+# Generated files
+exam_workflow_scripts/generated_exams/
+exam_workflow_scripts/zipped_exams/
+exam_workflow_scripts/qr_debug_failures/
+
+# Student data
+exam_workflow_scripts/student_data/
+
+# Temporary or local files
+*.zip
+*.json # Exclude temp_notebook.json
+*.xlsx
+*.ipynb # The raw ipynb might contain sensitive paths or execution history
+temp_notebook.json
+colab_notebook_text.txt
+inspect_excel.py
+create_dummy_pdf.py
+# Private SSH keys (though .ssh should generally be ignored anyway)
+.ssh/
